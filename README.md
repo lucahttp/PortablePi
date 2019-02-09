@@ -1,6 +1,9 @@
 # Portable Pi
 
-Es una "Placa Padre"
+Es una "Placa Padre" la cual se conecta a la Raspberry (y compatible con otras placas) la cual le brinda de una pantalla y un teclado (por ahora, luego la voy a poner mas cosas)
+
+
+
 
 todo comenzo cuando queria comprarme la Pocket Chip (https://imgur.com/l437LvK 65 USD +-, es una computadora portable basada en ARM), como vivo en argentina comprarla me iba a salir alrededor de 6000 ars o 150 USD por lo que preferi intentar construirme una parecida basada en la conocida raspberry Pi , no estoy seguro si en la Pi3 o Pi Zero por un tema de ergonomia en la mano y consumo energetico.
 
@@ -13,6 +16,11 @@ el diseño al estar basado en la pocket chip la raspberry pi seria insertada con
 Este diseño tambien se podria adaptar a las otras placas como a Orange Pi, Pine64, LattePanda , y otras placas, hasta las que no tiene salida de video ya que esta pantalla es via SPI.
 
 seria tanto como hacer espacio en el diseño del PortablePi para que entre el conector para otra placa en caso de que no comparta la distribucion de pines con la raspberry 
+
+
+
+//para ver los pines y sus valores dejo una pagina que te los muestra y explica que hacen
+pinout.xyz
 
 ## Compabilitys with Operatives Systems
 
