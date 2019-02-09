@@ -41,7 +41,7 @@ https://imgur.com/PwzQMJI
 
 
 # Upgrade 09/02/2019
-## investigating a new Keyboard IC ## MSP430 is a very cheaply solution
+## investigating a new Keyboard IC - MSP430 is a very cheaply solution
 
 estaba boludeando por internet cuando noticia salvaje aparece xdxd
 encontre que hay un IC que se puede usar para la matris del keyboard y que ya esta desarrollado el codigo y los drivers tanto por usb como por I2C
