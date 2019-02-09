@@ -3,7 +3,7 @@
 todo comenzo cuando queria comprarme la Pocket Chip, como vivo en argentina
 
 
-![alt text](https://github.com/lukaneco/PortablePi/blob/master/piportable%20v7/libraries/gg 2.png)
+![alt text](hhttps://github.com/lukaneco/PortablePi/blob/master/piportable%20v7/libraries/gg%202.png)
 
 
 
