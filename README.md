@@ -10,6 +10,14 @@ el diseño al estar basado en la pocket chip la raspberry pi seria insertada con
 
 Este diseño tambien se podria adaptar a las otras placas como a Orange Pi, Pine64, LattePanda , y otras placas, hasta las que no tiene salida de video ya que esta pantalla es via SPI.
 
+seria tanto como hacer espacio en el diseño del PortablePi para que entre el conector para otra placa en caso de que no comparta la distribucion de pines con la raspberry 
+
+# Compabilitys with Operatives Systems
+
+el proyecto esta pensado para que funcione en una raspberry pi zero con raspbian o alguna distribucion que soporte tan poca RAM pero la verdad no conozco la forma de comunicar el display via SPI a otros sistemas operativos o a otras arquitecturas de procesadores ya que los drivers del fabricante solo estan pensados para la raspberry pi con raspbian o alguna distro parecida.
+
+Tambien el teclado de la Pocket pi y otros proyectos parecidos como la qwertyPi hacen uso del TC8418 pero esto es dificil de conseguir en donde me ubico, quizas lo podria conseguir via aliexpress que me saldria algo de 10 USD pero anda a saber cuando va a llegar 
+
 
 hace varios años me compre la raspberry pi zero w por lo que actualmente el diseño esta pensado en esta pero en un futuro no muy lejano (si llego a conseguir una raspberry pi 3 o 2 del modelo B) pienso adaptarla a esta ya que posee 4 USB nativos, ethernet y un hdmi completo (un problema en esto es que pensaba poner la parte de los USB y el ethernet que sobresalga un poco por la parte superior pero si esta centrada en la parte superior el HDMI, Jack de video y el pin de carga quedan dentro del diseño y sin un facil acceso desde el costado del dispositivo por lo que una opcion seria poner esta en un costado, el izquierdo para tener el acceso a los puertos pero quedaria desentrado)
 
