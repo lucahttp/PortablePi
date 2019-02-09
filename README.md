@@ -6,7 +6,7 @@ todo comenzo cuando queria comprarme la Pocket Chip (https://imgur.com/l437LvK 6
 el diseño al estar basado en la pocket chip la raspberry pi seria insertada con sus GPIOs machos desde atras del PortablePi (todavia nose si esta al estar solamente sujeta con los gpios va a quedar bien agarrada, pero como la idea es que la raspberry sea de facil acceso para poder sacarla del "Expansion Board" y usarla como cualquier Raspberry pi)
 
 
-Compabilitys with Others Single Board Computers
+# Compabilitys with Others Single Board Computers
 
 Este diseño tambien se podria adaptar a las otras placas como a Orange Pi, Pine64, LattePanda , y otras placas, hasta las que no tiene salida de video ya que esta pantalla es via SPI.
 
@@ -30,7 +30,7 @@ https://imgur.com/PwzQMJI
 
 
 
-# Upgrade
+# Upgrade 09/02/2019
 
 
 estaba boludeando por internet cuando noticia salvaje aparece xdxd
