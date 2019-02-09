@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name portablePi-v5-rescue)(type Legacy)(uri "${KIPRJMOD}/portablePi v5-rescue.lib")(options "")(descr ""))
+  (lib (name portablePi-v7-rescue)(type Legacy)(uri "${KIPRJMOD}/portablePi v7-rescue.lib")(options "")(descr ""))
+)
