@@ -1,18 +1,20 @@
 # Portable Pi
 
+
+
 todo comenzo cuando queria comprarme la Pocket Chip (https://imgur.com/l437LvK 65 USD +-, es una computadora portable basada en ARM), como vivo en argentina comprarla me iba a salir alrededor de 6000 ars o 150 USD por lo que preferi intentar construirme una parecida basada en la conocida raspberry Pi , no estoy seguro si en la Pi3 o Pi Zero por un tema de ergonomia en la mano y consumo energetico.
 
 
 el diseño al estar basado en la pocket chip la raspberry pi seria insertada con sus GPIOs machos desde atras del PortablePi (todavia nose si esta al estar solamente sujeta con los gpios va a quedar bien agarrada, pero como la idea es que la raspberry sea de facil acceso para poder sacarla del "Expansion Board" y usarla como cualquier Raspberry pi)
 
 
-# Compabilitys with Others Single Board Computers
+## Compabilitys with Others Single Board Computers
 
 Este diseño tambien se podria adaptar a las otras placas como a Orange Pi, Pine64, LattePanda , y otras placas, hasta las que no tiene salida de video ya que esta pantalla es via SPI.
 
 seria tanto como hacer espacio en el diseño del PortablePi para que entre el conector para otra placa en caso de que no comparta la distribucion de pines con la raspberry 
 
-# Compabilitys with Operatives Systems
+## Compabilitys with Operatives Systems
 
 el proyecto esta pensado para que funcione en una raspberry pi zero con raspbian o alguna distribucion que soporte tan poca RAM pero la verdad no conozco la forma de comunicar el display via SPI a otros sistemas operativos o a otras arquitecturas de procesadores ya que los drivers del fabricante solo estan pensados para la raspberry pi con raspbian o alguna distro parecida.
 
@@ -39,8 +41,7 @@ https://imgur.com/PwzQMJI
 
 
 # Upgrade 09/02/2019
-# investigating a new Keyboard IC 
-## MSP430 is a very cheaply solution
+## investigating a new Keyboard IC ## MSP430 is a very cheaply solution
 
 estaba boludeando por internet cuando noticia salvaje aparece xdxd
 encontre que hay un IC que se puede usar para la matris del keyboard y que ya esta desarrollado el codigo y los drivers tanto por usb como por I2C
