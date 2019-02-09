@@ -43,10 +43,18 @@ https://imgur.com/PwzQMJI
 ![alt text](https://github.com/lukaneco/PortablePi/blob/master/piportable%20v7/scheenshots/portablePi%20v7-brd.png)
 
 
+# Concept
 
+https://imgur.com/8SMtQg4
 
+![alt text](https://imgur.com/8SMtQg4)
 
+# About Pocket Chip
 
+is currently unavailable
+https://www.pcworld.com/article/3094364/hardware/inside-the-pocketchip-a-49-portable-linux-computer.html
+
+https://www.newmuseumstore.org/next-thing-co-pocket-chip
 
 
 # Upgrade 09/02/2019
@@ -58,3 +66,4 @@ encontre que hay un IC que se puede usar para la matris del keyboard y que ya es
 http://www.ti.com/lit/ug/tidu521/tidu521.pdf
 
 voy a investigar sobre como emplearlo en este proyecto
+
