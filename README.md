@@ -2,8 +2,9 @@
 
 todo comenzo cuando queria comprarme la Pocket Chip, como vivo en argentina
 
-
-![alt text](hhttps://github.com/lukaneco/PortablePi/blob/master/piportable%20v7/libraries/gg%202.png)
+https://imgur.com/l437LvK
+![alt text](https://imgur.com/l437LvK)
+Pocket Chip
 
 
 
