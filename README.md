@@ -39,12 +39,12 @@ https://imgur.com/PwzQMJI
 
 
 # Upgrade 09/02/2019
-
+# investigating a new Keyboard IC 
+## MSP430 is a very cheaply solution
 
 estaba boludeando por internet cuando noticia salvaje aparece xdxd
 encontre que hay un IC que se puede usar para la matris del keyboard y que ya esta desarrollado el codigo y los drivers tanto por usb como por I2C
 
 http://www.ti.com/lit/ug/tidu521/tidu521.pdf
-
 
 voy a investigar sobre como emplearlo en este proyecto
