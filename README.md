@@ -19,7 +19,8 @@ seria tanto como hacer espacio en el diseño del PortablePi para que entre el co
 
 
 
-//para ver los pines y sus valores dejo una pagina que te los muestra y explica que hacen
+//para ver los pines y sus valores dejo una pagina que te los muestra y explica que hace cada uno
+
 https://pinout.xyz
 
 ## Compabilitys with Operatives Systems
