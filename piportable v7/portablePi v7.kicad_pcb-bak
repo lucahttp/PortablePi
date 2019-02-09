@@ -3504,7 +3504,7 @@
   )
 
   (module pi2:raspberrypi_2_3 (layer F.Cu) (tedit 5C5E4138) (tstamp 5C5E4313)
-    (at 88.73 83.405 90)
+    (at -9.67 88.255 90)
     (descr "RaspberryPi 2")
     (tags CONN)
     (path /5C56055C)

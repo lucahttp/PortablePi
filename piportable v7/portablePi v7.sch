@@ -19141,7 +19141,7 @@ U 1 1 5C55F688
 P 2550 5300
 F 0 "DS1" H 2550 6647 50  0000 C CNN
 F 1 "3.5_Inch_RPI" H 2550 6556 50  0000 C CNN
-F 2 "pi2:raspberrypi_2_3" H 2550 5300 50  0001 C CNN
+F 2 "35 display:3.5 inch RPi LCD" H 2550 5300 50  0001 C CNN
 F 3 "DOCUMENTATION" H 2550 5300 50  0001 C CNN
 F 4 "https://www.elecrow.com/35-inch-480x320-tft-display-with-touch-screen-for-raspberry-pi-p-1385.html" H 2550 6465 50  0000 C CNN "Link"
 F 5 "1.5" H 2550 6374 50  0000 C CNN "V."
@@ -19151,20 +19151,20 @@ $EndComp
 $Comp
 L Raspberry_Pi_Zero_W_(v1.3):Raspberry_Pi_Zero_W_(v1.3) IC1
 U 1 1 5C56055C
-P 1350 7650
-F 0 "IC1" H 2800 7915 50  0000 C CNN
-F 1 "Raspberry_Pi_Zero_W_(v1.3)" H 2800 7824 50  0000 C CNN
-F 2 "pi2:raspberrypi_2_3" H 4100 7750 50  0001 L CNN
-F 3 "https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero_1.pdf" H 4100 7650 50  0001 L CNN
-F 4 "Raspberry Pi Zero W (v1.3) Single-board Computers" H 4100 7550 50  0001 L CNN "Description"
-F 5 "" H 4100 7450 50  0001 L CNN "Height"
-F 6 "RASPBERRY-PI" H 4100 7350 50  0001 L CNN "Manufacturer_Name"
-F 7 "Raspberry Pi Zero W (v1.3)" H 4100 7250 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 4100 7150 50  0001 L CNN "RS Part Number"
-F 9 "" H 4100 7050 50  0001 L CNN "RS Price/Stock"
-F 10 "" H 4100 6950 50  0001 L CNN "Mouser Part Number"
-F 11 "" H 4100 6850 50  0001 L CNN "Mouser Price/Stock"
-	1    1350 7650
+P 1800 8400
+F 0 "IC1" H 3250 8665 50  0000 C CNN
+F 1 "Raspberry_Pi_Zero_W_(v1.3)" H 3250 8574 50  0000 C CNN
+F 2 "pi2:raspberrypi_2_3" H 4550 8500 50  0001 L CNN
+F 3 "https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero_1.pdf" H 4550 8400 50  0001 L CNN
+F 4 "Raspberry Pi Zero W (v1.3) Single-board Computers" H 4550 8300 50  0001 L CNN "Description"
+F 5 "" H 4550 8200 50  0001 L CNN "Height"
+F 6 "RASPBERRY-PI" H 4550 8100 50  0001 L CNN "Manufacturer_Name"
+F 7 "Raspberry Pi Zero W (v1.3)" H 4550 8000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 4550 7900 50  0001 L CNN "RS Part Number"
+F 9 "" H 4550 7800 50  0001 L CNN "RS Price/Stock"
+F 10 "" H 4550 7700 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 4550 7600 50  0001 L CNN "Mouser Price/Stock"
+	1    1800 8400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -19275,112 +19275,13 @@ Wire Wire Line
 Connection ~ 750  5800
 Wire Wire Line
 	750  5800 750  6150
-Text GLabel 1350 9350 0    50   Input ~ 0
-LCD_RS
-Text GLabel 1350 9750 0    50   Input ~ 0
-RST
-Text GLabel 4250 7750 2    50   Input ~ 0
-LCD_CS
-Text GLabel 4250 7950 2    50   Input ~ 0
-TP_CS
-Text GLabel 1350 9650 0    50   Input ~ 0
-TP_SO
-Text GLabel 4250 7650 2    50   Input ~ 0
-LCD_SCK
-Text GLabel 1350 8650 0    50   Input ~ 0
-TP_IRQ
-$Comp
-L power:GND #PWR0105
-U 1 1 5C63ADD4
-P 4950 10100
-F 0 "#PWR0105" H 4950 9850 50  0001 C CNN
-F 1 "GND" H 4955 9927 50  0000 C CNN
-F 2 "" H 4950 10100 50  0001 C CNN
-F 3 "" H 4950 10100 50  0001 C CNN
-	1    4950 10100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 7850 4950 7850
-Wire Wire Line
-	4950 7850 4950 10100
-$Comp
-L power:GND #PWR0106
-U 1 1 5C641F49
-P 850 10250
-F 0 "#PWR0106" H 850 10000 50  0001 C CNN
-F 1 "GND" H 855 10077 50  0000 C CNN
-F 2 "" H 850 10250 50  0001 C CNN
-F 3 "" H 850 10250 50  0001 C CNN
-	1    850  10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 9550 850  9550
-Wire Wire Line
-	850  9550 850  10250
-Wire Wire Line
-	1350 8950 850  8950
-Wire Wire Line
-	850  8950 850  9550
-Connection ~ 850  9550
-Wire Wire Line
-	1350 8450 850  8450
-Wire Wire Line
-	850  8450 850  8950
-Connection ~ 850  8950
-Wire Wire Line
-	1350 8150 850  8150
-Wire Wire Line
-	850  8150 850  8450
-Connection ~ 850  8450
-$Comp
-L power:+5V #PWR0107
-U 1 1 5C66060B
-P 1150 7500
-F 0 "#PWR0107" H 1150 7350 50  0001 C CNN
-F 1 "+5V" H 1165 7673 50  0000 C CNN
-F 2 "" H 1150 7500 50  0001 C CNN
-F 3 "" H 1150 7500 50  0001 C CNN
-	1    1150 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 7500 1150 7750
-Wire Wire Line
-	1150 7750 1350 7750
-Wire Wire Line
-	1350 7950 1150 7950
-Wire Wire Line
-	1150 7950 1150 7750
-Connection ~ 1150 7750
-$Comp
-L power:+3.3V #PWR0108
-U 1 1 5C678ACA
-P 900 7500
-F 0 "#PWR0108" H 900 7350 50  0001 C CNN
-F 1 "+3.3V" H 915 7673 50  0000 C CNN
-F 2 "" H 900 7500 50  0001 C CNN
-F 3 "" H 900 7500 50  0001 C CNN
-	1    900  7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 7650 900  7650
-Wire Wire Line
-	900  7650 900  7500
-Wire Wire Line
-	1350 9250 900  9250
-Wire Wire Line
-	900  9250 900  7650
-Connection ~ 900  7650
 $Comp
 L portablePi-v7-rescue:Raspberry_Pi_2_3-Raspberry_Pi_2_or_3-portablePi-v5-rescue RP1
 U 1 1 5C5F64C7
 P 8000 7450
 F 0 "RP1" H 9450 7715 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 9450 7624 50  0000 C CNN
-F 2 "RASPBERRYPI" H 9200 8350 50  0001 L CNN
+F 2 "" H 9200 8350 50  0001 L CNN
 F 3 "by lukaneco" H 9200 8050 50  0001 L CNN
 F 4 "Raspberry Pi Zero 2 or 3 Single-board Computers" H 9200 7950 50  0001 L CNN "Description"
 F 5 "RASPBERRY-PI" H 9200 8250 50  0001 L CNN "Manufacturer_Name"
@@ -19388,4 +19289,103 @@ F 6 "Raspberry Pi 2 or 3" H 9200 8150 50  0001 L CNN "Manufacturer_Part_Number"
 	1    8000 7450
 	1    0    0    -1  
 $EndComp
+Text GLabel 8000 9150 0    50   Input ~ 0
+LCD_RS
+Text GLabel 8000 9550 0    50   Input ~ 0
+RST
+Text GLabel 8000 9450 0    50   Input ~ 0
+TP_SO
+Text GLabel 8000 8450 0    50   Input ~ 0
+TP_IRQ
+$Comp
+L power:GND #PWR0105
+U 1 1 5C617599
+P 7500 10050
+F 0 "#PWR0105" H 7500 9800 50  0001 C CNN
+F 1 "GND" H 7505 9877 50  0000 C CNN
+F 2 "" H 7500 10050 50  0001 C CNN
+F 3 "" H 7500 10050 50  0001 C CNN
+	1    7500 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 9350 7500 9350
+Wire Wire Line
+	7500 9350 7500 10050
+Wire Wire Line
+	8000 8750 7500 8750
+Wire Wire Line
+	7500 8750 7500 9350
+Connection ~ 7500 9350
+Wire Wire Line
+	8000 8250 7500 8250
+Wire Wire Line
+	7500 8250 7500 8750
+Connection ~ 7500 8750
+Wire Wire Line
+	8000 7950 7500 7950
+Wire Wire Line
+	7500 7950 7500 8250
+Connection ~ 7500 8250
+$Comp
+L power:+5V #PWR0106
+U 1 1 5C6175AA
+P 7800 7300
+F 0 "#PWR0106" H 7800 7150 50  0001 C CNN
+F 1 "+5V" H 7815 7473 50  0000 C CNN
+F 2 "" H 7800 7300 50  0001 C CNN
+F 3 "" H 7800 7300 50  0001 C CNN
+	1    7800 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 7300 7800 7550
+Wire Wire Line
+	7800 7550 8000 7550
+Wire Wire Line
+	8000 7750 7800 7750
+Wire Wire Line
+	7800 7750 7800 7550
+Connection ~ 7800 7550
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 5C6175B5
+P 7550 7300
+F 0 "#PWR0107" H 7550 7150 50  0001 C CNN
+F 1 "+3.3V" H 7565 7473 50  0000 C CNN
+F 2 "" H 7550 7300 50  0001 C CNN
+F 3 "" H 7550 7300 50  0001 C CNN
+	1    7550 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 7450 7550 7450
+Wire Wire Line
+	7550 7450 7550 7300
+Wire Wire Line
+	8000 9050 7550 9050
+Wire Wire Line
+	7550 9050 7550 7450
+Connection ~ 7550 7450
+Text GLabel 10900 7550 2    50   Input ~ 0
+LCD_CS
+Text GLabel 10900 7750 2    50   Input ~ 0
+TP_CS
+Text GLabel 10900 7450 2    50   Input ~ 0
+LCD_SCK
+$Comp
+L power:GND #PWR0108
+U 1 1 5C62C015
+P 11600 9900
+F 0 "#PWR0108" H 11600 9650 50  0001 C CNN
+F 1 "GND" H 11605 9727 50  0000 C CNN
+F 2 "" H 11600 9900 50  0001 C CNN
+F 3 "" H 11600 9900 50  0001 C CNN
+	1    11600 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 7650 11600 7650
+Wire Wire Line
+	11600 7650 11600 9900
 $EndSCHEMATC
