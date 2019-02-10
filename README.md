@@ -48,13 +48,13 @@ but i dont discard the idea of adapt this opcion for use via GPIO
 <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/1%20I2jlIVvAtG6rRXWzsqDOcA.jpeg" alt="teensy" width="400px" height="whatever"> <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/1%20l0At8TJehMSu8sPScRZbhA.jpeg" alt="teensy" width="400px" height="whatever">
 
 
- - the RC2014 keyboard
+ - RC2014 keyboard
+ 
+   The RC2014 [page](http://rc2014.co.uk/modules/universal-micro-keyboard/) shown a project but i dont have any idea of how to       
+   adapt this to PortablePi
  
    <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/Keyboard4.jpg" alt="rc2014" width="400px" height="whatever"> <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/Keyboard5.jpg" alt="rc2014" width="400px" height="whatever">
-   
-   the RC2014 [page](http://rc2014.co.uk/modules/universal-micro-keyboard/) shown a project but i dont have any idea of how to       
-   adapt this to PortablePi
-   
+      
    
  ## 4. Usb keyboard (very cheaply)
  
