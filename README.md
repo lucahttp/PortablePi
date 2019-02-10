@@ -40,9 +40,12 @@ it also can use directly like TX/RX but have to run aprogram to convert this sig
 the third opcion that came my way that i was found are a Arduino Pro Micro as a USB keyboard like [teensy Thumb Keyboard](https://hackaday.io/project/162281-teensy-thumb-keyboard) but in this opcion i would have to conect via USB to the raspberry and this is not a good idea because isnt practical
 
 but i dont discard the idea of adapt this opcion for use via GPIO
+
+
+the RC2014 [page](http://rc2014.co.uk/modules/universal-micro-keyboard/) shown a project but i dont have any idea of how to adapt this to PortablePi
  
  
- ## 4. the way most factible TC8418
+ ## 4. the way most factible is TC8418
 
 I found that they use the other projects like PocketChip or qwertyPi and others better keyboards for raspberry pi (and others microcomputers) more professionals. the problem is that component isnt easyly to found in my country and is a smaller than otrer solutions (hard to solder to the board).
 
@@ -65,16 +68,17 @@ https://e2e.ti.com/support/interface/f/138/t/202938
 
 - [other font of information]() that guy have an project to make this way (the page is writed in german)
 
-  [video](https://www.youtube.com/watch?v=j4ymw0hWN1o)
+  -- [video](https://www.youtube.com/watch?v=j4ymw0hWN1o)
   
-  [web page](https://5volt-junkie.net/i2c-keypad/)
+  -- [web page](https://5volt-junkie.net/i2c-keypad/)
   
 - [pwav robot](https://twitter.com/pwavrobot) is other guy that make something with TCA8418
 
-  [link](https://twitter.com/pwavrobot/status/1075758165944385536)
+  -- [link](https://twitter.com/pwavrobot/status/1075758165944385536)
  
  
-
+repeat, the problem is the shipping from US or China is very expensive and it takes a long time to get here.
+i found an options to buy in [Aliexpress](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190210085412&SearchText=TCA8418) relatively cheap, Mouser, TI store and others sellers the shipping cost is more than aliexpress but more quickly (about 40 usd the shipping cost).
 
 
 # Español
