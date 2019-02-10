@@ -15,13 +15,12 @@ everything looked like fine until the company that makes CHIP, declared bankrupt
  # Search a compatible keyboard for the portable pi
  
  
- ## 1. Usb keyboard cheaply
+ ## 1. Usb Bluetooth keyboard (cheaply)
  
 the first option I thought (my father told me) was a bluetooth keyboard (is very cheaply opcion for those dont like the hardware) but i think isnt practical
 
 <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/bluetooth%20keyboard%20asdasd.png" alt="usb keyboard" width="500px" height="whatever">
 
-[design of cheaply USB Keyboard opcion](https://github.com/lukaneco/USB-keyboard-Board-PCB-pinout-diagram)
 
 
  ## 2. Xbox ChatPad
@@ -55,9 +54,20 @@ but i dont discard the idea of adapt this opcion for use via GPIO
    
    the RC2014 [page](http://rc2014.co.uk/modules/universal-micro-keyboard/) shown a project but i dont have any idea of how to       
    adapt this to PortablePi
+   
+   
+ ## 4. Usb keyboard (very cheaply)
+ 
+ This opcion is better for those do not have a way to get electronic components but the layout and matrix config is not prepared to direct access in the keyboard but could be config these features via software
+ 
+ <img src="https://github.com/lukaneco/USB-keyboard-Board-PCB-pinout-diagram/blob/master/cheaply%20usb%20keyboard%20PCB%20board%20.jpg" alt="rc2014" width="400px" height="whatever">
+ 
+ [design of cheaply USB Keyboard opcion](https://github.com/lukaneco/USB-keyboard-Board-PCB-pinout-diagram)
  
  
- ## 4. the way most factible is TCA8418
+ 
+ 
+ ## 5. the way most factible is TCA8418
 
 I found that they use the other projects like PocketChip or qwertyPi and others better keyboards for raspberry pi (and others microcomputers) more professionals. the problem is that component isnt easyly to found in my country and is a smaller than otrer solutions (hard to solder to the board).
 
