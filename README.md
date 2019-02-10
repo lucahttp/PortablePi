@@ -98,11 +98,11 @@ https://e2e.ti.com/support/interface/f/138/t/202938
 
   -- [link](https://twitter.com/pwavrobot/status/1075758165944385536)
 
-  -- [link](http://www.snaponair.com/)
+  -- [snaponair](http://www.snaponair.com/)
 
-  -- [link](https://hackaday.io/project/22038-the-lorawan-pager)
+  -- [lorawan pager](https://hackaday.io/project/22038-the-lorawan-pager)
 
-  -- [link](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone)
+  -- [zerophone](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone)
  
  
 repeat, the problem is the shipping from US or China is very expensive and it takes a long time to get here.
