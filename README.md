@@ -3,6 +3,7 @@
 
 Is an Father Board witch can connect to the raspberry pi (currently compatible to this gpio configuration, orange pi thinkercard, an anothers) this aport an Screen and keyboard (in one board) then i will add more things like audio jack, ethernet port, hub USB and everything you can imagine and put in your pockets.
 
+![alt text](https://github.com/lukaneco/PortablePi/blob/master/piportable%20v7/scheenshots/portablePi%20v7-brd.png)
 
 ## History
 it started when i wanted to buy the newly released Pocket Chip (https://imgur.com/l437LvK 50 USD + taxes + shipping, something of 120 USD)the chip is a competitor of the raspberry pi but offered for 9 USD and for 40 USD more could you make this pocket.
