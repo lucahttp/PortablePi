@@ -1,10 +1,21 @@
+
 # Portable Pi
 
-Es una "Placa Padre" la cual se conecta a la Raspberry (y compatible con otras placas) esta le brinda una pantalla y un teclado (por ahora, luego la voy a poner mas cosas)
+Is an Father Board witch can connect to the raspberry pi (currently compatible to this gpio configuration, orange pi thinkercard, an anothers) this aport an Screen and keyboard (in one PCB) then i will add more things like audio jack, ethernet port, hub USB and everything you can imagine and put in your pockets.
 
 
 
-# History
+
+# Español
+
+# Portable Pi
+
+Es una "Placa Padre" la cual se conecta a la Raspberry (y compatible con otras placas) esta le brinda una pantalla y un teclado (en una sola placa) luego la voy a poner mas cosas como un jack de audio, un puerto ethernet, un hub usb y todo lo que puedas imaginar o poner en tus bolsillos.
+
+
+
+
+## History
 
 todo comenzo cuando queria comprarme la Pocket Chip (https://imgur.com/l437LvK 65 USD +-, es una computadora portable basada en ARM), como vivo en argentina comprarla me iba a salir alrededor de 6000 ars o 150 USD por lo que preferi intentar construirme una parecida basada en la conocida raspberry Pi , no estoy seguro si en la Pi3 o Pi Zero por un tema de ergonomia en la mano y consumo energetico.
 
