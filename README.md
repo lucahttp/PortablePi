@@ -92,6 +92,10 @@ i found an options to buy in [Aliexpress](https://es.aliexpress.com/wholesale?ca
  [3.5inch RPi LCD 480x320](https://www.waveshare.com/3.5inch-rpi-lcd-a.htm)
  via GPIO (for female header, i will replaced with other connector smaller)
  
+ <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/3.5inch-rpi-lcd-a-2_3.jpg" alt="display" width="600px" height="whatever">  <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/35i-tft-lcd-320x480-touch-display-raspberry-pi.jpg" alt="display" width="600px" height="whatever">
+ 
+ 
+ 
 - via HDMI (i dont not recomend this opcion because it will discard the plug and plug metodology)
 
 
