@@ -43,7 +43,18 @@ the third opcion that came my way that i was found are a Arduino Pro Micro as a 
 but i dont discard the idea of adapt this opcion for use via GPIO
 
 
-the RC2014 [page](http://rc2014.co.uk/modules/universal-micro-keyboard/) shown a project but i dont have any idea of how to adapt this to PortablePi
+- the teensy Thumb Keyboard
+  [teensy Thumb Keyboard](https://hackaday.io/project/162281-teensy-thumb-keyboard) 
+  
+<img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/1%20I2jlIVvAtG6rRXWzsqDOcA.jpeg" alt="teensy" width="400px" height="whatever"> <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/1%20l0At8TJehMSu8sPScRZbhA.jpeg" alt="teensy" width="400px" height="whatever">
+
+
+ - the RC2014 keyboard
+ 
+   <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/Keyboard4.jpg" alt="rc2014" width="400px" height="whatever"> <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/Keyboard5.jpg" alt="rc2014" width="400px" height="whatever">
+   
+   the RC2014 [page](http://rc2014.co.uk/modules/universal-micro-keyboard/) shown a project but i dont have any idea of how to       
+   adapt this to PortablePi
  
  
  ## 4. the way most factible is TCA8418
@@ -92,7 +103,7 @@ i found an options to buy in [Aliexpress](https://es.aliexpress.com/wholesale?ca
  [3.5inch RPi LCD 480x320](https://www.waveshare.com/3.5inch-rpi-lcd-a.htm)
  via GPIO (for female header, i will replaced with other connector smaller)
  
- <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/3.5inch-rpi-lcd-a-2_3.jpg" alt="display" width="600px" height="whatever">  <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/35i-tft-lcd-320x480-touch-display-raspberry-pi.jpg" alt="display" width="600px" height="whatever">
+ <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/3.5inch-rpi-lcd-a-2_3.jpg" alt="display" width="400px" height="whatever">  <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/35i-tft-lcd-320x480-touch-display-raspberry-pi.jpg" alt="display" width="400px" height="whatever">
  
  
  
