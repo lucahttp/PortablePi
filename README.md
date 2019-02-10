@@ -42,7 +42,36 @@ the third opcion that came my way that i was found are a Arduino Pro Micro as a 
 but i dont discard the idea of adapt this opcion for use via GPIO
  
  
- 
+ ## 4. the way most factible TC8418
+
+I found that they use the other projects like PocketChip or qwertyPi and others better keyboards for raspberry pi (and others microcomputers) more professionals. the problem is that component isnt easyly to found in my country and is a smaller than otrer solutions (hard to solder to the board).
+
+a good news is that the documentation in the [manufacturer page](http://www.ti.com/product/TCA8418)
+
+
+https://e2e.ti.com/support/interface/f/138/t/202938
+
+
+
+[Datasheet of TCA8418](www.ti.com/lit/ds/symlink/tca8418.pdf)
+
+
+
+- [Malti](https://hackaday.io/project/5081-malti) is a similar project but that dont have the idea of easy plug and play.
+
+- [qwertyPi](https://mozzwald.com/articles/2017/12/01/qwertypi-a-handheld-raspberry-pi-qwerty-computer) is the more similar  project but that dont have the easy plug of the raspberry 
+
+- [Ben Heck’s DIY Calculator](https://www.youtube.com/watch?v=lJu1ij_Emlk) is a similar project for other destiny
+
+- [other font of information]() that guy have an project to make this way (the page is writed in german)
+
+  [video](https://www.youtube.com/watch?v=j4ymw0hWN1o)
+  
+  [web page](https://5volt-junkie.net/i2c-keypad/)
+  
+- [pwav robot](https://twitter.com/pwavrobot) is other guy that make something with TCA8418
+
+  [link](https://twitter.com/pwavrobot/status/1075758165944385536)
  
  
 
