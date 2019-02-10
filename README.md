@@ -1,8 +1,50 @@
 
 # Portable Pi
 
-Is an Father Board witch can connect to the raspberry pi (currently compatible to this gpio configuration, orange pi thinkercard, an anothers) this aport an Screen and keyboard (in one PCB) then i will add more things like audio jack, ethernet port, hub USB and everything you can imagine and put in your pockets.
+Is an Father Board witch can connect to the raspberry pi (currently compatible to this gpio configuration, orange pi thinkercard, an anothers) this aport an Screen and keyboard (in one board) then i will add more things like audio jack, ethernet port, hub USB and everything you can imagine and put in your pockets.
 
+
+## History
+it started when i wanted to buy the newly released Pocket Chip (https://imgur.com/l437LvK 50 USD + taxes + shipping, something of 120 USD)the chip is a competitor of the raspberry pi but offered for 9 USD and for 40 USD more could you make this pocket.
+
+everything looked like fine until the company that makes CHIP, declared bankrupt.
+ 
+ 
+ 
+ # Search a compatible keyboard for the portable pi
+ 
+ 
+ ## 1. Usb keyboard cheaply
+ 
+the first option I thought (my father told me) was a bluetooth keyboard (is very cheaply opcion for those dont like the hardware) but i think isnt practical
+
+<img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/bluetooth%20keyboard%20asdasd.png" alt="usb keyboard" width="500px" height="whatever">
+
+[design of cheaply USB Keyboard opcion](https://github.com/lukaneco/USB-keyboard-Board-PCB-pinout-diagram)
+
+
+ ## 2. Xbox ChatPad
+ 
+the second opcion is a Xbox Chatpad but is missing keys like >< ,Ctrl , Alt, Command and others.
+if you not need this keys is a good opcion for this project
+
+the way to connect to the raspberry is a reprogram the Microchip PIC inside the keyboard, BenHacksShow show how do it [here](https://www.youtube.com/watch?v=Hjdj14C_jAI) and others examples [with raspberry](https://www.youtube.com/watch?v=2sVS-jMGD7w), [an brazilian](https://www.youtube.com/watch?v=Mo7BqMrNIDs) and [this](https://www.youtube.com/watch?v=I20lXAS_IJs)
+
+it also can use directly like TX/RX but have to run aprogram to convert this signals in keyboard inputs and it slow down the limited resources of the computer. [here in reddit](https://www.reddit.com/r/raspberry_pi/comments/5t4xgy/raspberry_pi_xbox_chatpad_keyboard/)
+ 
+<img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/xbox%20chatpad%20asdasd.jpg" alt="xbox chatpad" width="500px" height="whatever">
+
+
+ ## 3. Arduino Usb Keyboard or Serial 
+ 
+the third opcion that came my way that i was found are a Arduino Pro Micro as a USB keyboard like [teensy Thumb Keyboard](https://hackaday.io/project/162281-teensy-thumb-keyboard) but in this opcion i would have to conect via USB to the raspberry and this is not a good idea because isnt practical
+
+but i dont discard the idea of adapt this opcion for use via GPIO
+ 
+ 
+ 
+ 
+ 
 
 
 
@@ -13,7 +55,8 @@ Is an Father Board witch can connect to the raspberry pi (currently compatible t
 Es una "Placa Padre" la cual se conecta a la Raspberry (y compatible con otras placas) esta le brinda una pantalla y un teclado (en una sola placa) luego la voy a poner mas cosas como un jack de audio, un puerto ethernet, un hub usb y todo lo que puedas imaginar o poner en tus bolsillos.
 
 
-
+ 
+ esta era una competidora de la raspberry pi pero de un
 
 ## History
 
@@ -61,7 +104,8 @@ https://imgur.com/PwzQMJI
 
 https://imgur.com/8SMtQg4
 
-![alt text](https://imgur.com/8SMtQg4)
+
+<img src="https://i.imgur.com/8SMtQg4.jpg" width="800px" height="whatever">
 
 https://cmapcloud.ihmc.us/
 
