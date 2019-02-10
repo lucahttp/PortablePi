@@ -82,6 +82,22 @@ repeat, the problem is the shipping from US or China is very expensive and it ta
 i found an options to buy in [Aliexpress](https://es.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190210085412&SearchText=TCA8418) relatively cheap, Mouser, TI store and others sellers the shipping cost is more than aliexpress but more quickly (about 40 usd the shipping cost).
 
 
+ 
+ # Search a display for the portable pi
+ 
+ 
+ I'm still looking for better options for now i use the cheapest display quality/price, and that is 
+ 
+- Pi Lcd 3.5 Touch 320x480
+ [3.5inch RPi LCD 480x320](https://www.waveshare.com/3.5inch-rpi-lcd-a.htm)
+ via GPIO (for female header, i will replaced with other connector smaller)
+ 
+- via HDMI (i dont not recomend this opcion because it will discard the plug and plug metodology)
+
+
+ 
+
+
 # Español
 
 # Portable Pi
