@@ -1,6 +1,6 @@
 # Portable Pi
 
-Es una "Placa Padre" la cual se conecta a la Raspberry (y compatible con otras placas) la cual le brinda de una pantalla y un teclado (por ahora, luego la voy a poner mas cosas)
+Es una "Placa Padre" la cual se conecta a la Raspberry (y compatible con otras placas) esta le brinda una pantalla y un teclado (por ahora, luego la voy a poner mas cosas)
 
 
 
