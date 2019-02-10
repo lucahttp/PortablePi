@@ -46,7 +46,7 @@ but i dont discard the idea of adapt this opcion for use via GPIO
 the RC2014 [page](http://rc2014.co.uk/modules/universal-micro-keyboard/) shown a project but i dont have any idea of how to adapt this to PortablePi
  
  
- ## 4. the way most factible is TC8418
+ ## 4. the way most factible is TCA8418
 
 I found that they use the other projects like PocketChip or qwertyPi and others better keyboards for raspberry pi (and others microcomputers) more professionals. the problem is that component isnt easyly to found in my country and is a smaller than otrer solutions (hard to solder to the board).
 
@@ -59,7 +59,7 @@ https://e2e.ti.com/support/interface/f/138/t/202938
 
 [Datasheet of TCA8418](www.ti.com/lit/ds/symlink/tca8418.pdf)
 
-
+[Code for malti](https://hackaday.io/project/5081-malti/log/17068-it-lives)
 
 - [Malti](https://hackaday.io/project/5081-malti) is a similar project but that dont have the idea of easy plug and play.
 
