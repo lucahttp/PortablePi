@@ -97,6 +97,12 @@ https://e2e.ti.com/support/interface/f/138/t/202938
 - [pwav robot](https://twitter.com/pwavrobot) is other guy that make something with TCA8418
 
   -- [link](https://twitter.com/pwavrobot/status/1075758165944385536)
+
+  -- [link](http://www.snaponair.com/)
+
+  -- [link](https://hackaday.io/project/22038-the-lorawan-pager)
+
+  -- [link](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone)
  
  
 repeat, the problem is the shipping from US or China is very expensive and it takes a long time to get here.
