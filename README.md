@@ -131,6 +131,45 @@ i found an options to buy in [Aliexpress](https://es.aliexpress.com/wholesale?ca
 
 
  
+ 
+ 
+
+
+# Concept
+
+the general idea is offer make portable the raspberry pi without discard the posibility of extract it, the purpose of this is debug projects anywhere without a desktop computer or notebook
+
+https://imgur.com/8SMtQg4 
+
+
+<img src="https://i.imgur.com/8SMtQg4.jpg" width="800px" height="whatever">
+
+to make conceptual maps is a good tool [Cmap](https://cmapcloud.ihmc.us/)
+
+
+# About Pocket Chip
+
+is currently unavailable
+
+https://www.pcworld.com/article/3094364/hardware/inside-the-pocketchip-a-49-portable-linux-computer.html
+
+the page not found in the internet neither the documentation to make other similar
+
+https://www.newmuseumstore.org/next-thing-co-pocket-chip
+
+
+# Upgrade 09/02/2019
+## investigating a new Keyboard IC - MSP430 is a very cheaply solution
+
+estaba boludeando por internet cuando noticia salvaje aparece xdxd
+encontre que hay un IC que se puede usar para la matris del keyboard y que ya esta desarrollado el codigo y los drivers tanto por usb como por I2C
+
+http://www.ti.com/lit/ug/tidu521/tidu521.pdf
+
+voy a investigar sobre como emplearlo en este proyecto
+
+ 
+ 
 
 
 # Español
