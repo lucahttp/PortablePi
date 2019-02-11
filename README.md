@@ -90,19 +90,19 @@ https://e2e.ti.com/support/interface/f/138/t/202938
 
 - [other font of information]() that guy have an project to make this way (the page is writed in german)
 
-  -- [video](https://www.youtube.com/watch?v=j4ymw0hWN1o)
+  - [video](https://www.youtube.com/watch?v=j4ymw0hWN1o)
   
-  -- [web page](https://5volt-junkie.net/i2c-keypad/)
+  - [web page](https://5volt-junkie.net/i2c-keypad/)
   
 - [pwav robot](https://twitter.com/pwavrobot) is other guy that make something with TCA8418
 
-  -- [link](https://twitter.com/pwavrobot/status/1075758165944385536)
+  - [link](https://twitter.com/pwavrobot/status/1075758165944385536)
 
-  -- [snaponair](http://www.snaponair.com/)
+  - [snaponair](http://www.snaponair.com/)
 
-  -- [lorawan pager](https://hackaday.io/project/22038-the-lorawan-pager)
+  - [lorawan pager](https://hackaday.io/project/22038-the-lorawan-pager)
 
-  -- [zerophone](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone)
+  - [zerophone](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone)
  
  
 repeat, the problem is the shipping from US or China is very expensive and it takes a long time to get here.
@@ -120,6 +120,10 @@ i found an options to buy in [Aliexpress](https://es.aliexpress.com/wholesale?ca
  via GPIO (for female header, i will replaced with other connector smaller)
  
  <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/3.5inch-rpi-lcd-a-2_3.jpg" alt="display" width="400px" height="whatever">  <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/35i-tft-lcd-320x480-touch-display-raspberry-pi.jpg" alt="display" width="400px" height="whatever">
+ 
+ 
+ the raspberry comunicate to the display via SPI, i dont think abaout others ways to gotcha it.
+ i know that the raspberry pi 2/3/other SBC have a DSI conector but i dont know how to use this
  
  
  
