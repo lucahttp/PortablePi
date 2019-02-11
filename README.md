@@ -55,7 +55,7 @@ but i dont discard the idea of adapt this opcion for use via GPIO
  
    <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/Keyboard4.jpg" alt="rc2014" width="400px" height="whatever"> <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/Keyboard5.jpg" alt="rc2014" width="400px" height="whatever">
       
-   
+   [Uinput: The New Hope]()
  ## 4. Usb keyboard (very cheaply)
  
  This opcion is better for those do not have a way to get electronic components but the layout and matrix config is not prepared to direct access in the keyboard but could be config these features via software
@@ -122,8 +122,8 @@ i found an options to buy in [Aliexpress](https://es.aliexpress.com/wholesale?ca
  <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/3.5inch-rpi-lcd-a-2_3.jpg" alt="display" width="400px" height="whatever">  <img src="https://github.com/lukaneco/PortablePi/blob/master/re%20img/35i-tft-lcd-320x480-touch-display-raspberry-pi.jpg" alt="display" width="400px" height="whatever">
  
  
- the raspberry comunicate to the display via SPI, i dont think abaout others ways to gotcha it.
- i know that the raspberry pi 2/3/other SBC have a DSI conector but i dont know how to use this
+   the raspberry comunicate to the display via SPI, i dont think abaout others ways to gotcha it. 
+   i know that the raspberry pi 2/3/other SBC have a DSI conector but i dont know how to use this
  
  
  
@@ -248,6 +248,43 @@ estaba boludeando por internet cuando noticia salvaje aparece xdxd
 encontre que hay un IC que se puede usar para la matris del keyboard y que ya esta desarrollado el codigo y los drivers tanto por usb como por I2C
 
 http://www.ti.com/lit/ug/tidu521/tidu521.pdf
+
+
+
+
+
+
+
+
+
+# Upgrade 11/02/2019
+## investigating a new Keyboard software - Uinput is a very easy to use solution
+
+i thinking about use uinput library of python, before dont considereded because CPU consumition but it would be minimal than the    
+normal use, unless we care a lot about the performance issue would be a good option.
+
+and matrix can be via atmega328 or some IC to do convert multiple inputs on less than, like pcf8574 or other I2C to parallel
+
+http://www.ti.com/lit/ds/symlink/pcf8574.pdf
+
+could also make atmega328 code to compatible for existing TCA8418 driver CODE or such any other similar
+
+
+https://github.com/tuomasjjrasanen/python-uinput
+
+https://pypi.org/project/python-uinput/
+
+http://tjjr.fi/sw/python-uinput/
+
+https://launchpad.net/python-uinput
+
+this option is used for retro pi and other similar projects
+
+
+
+
+
+
 
 voy a investigar sobre como emplearlo en este proyecto
 
