@@ -158,18 +158,83 @@ the page not found in the internet neither the documentation to make other simil
 https://www.newmuseumstore.org/next-thing-co-pocket-chip
 
 
+
 # Upgrade 09/02/2019
 ## investigating a new Keyboard IC - MSP430 is a very cheaply solution
 
-estaba boludeando por internet cuando noticia salvaje aparece xdxd
-encontre que hay un IC que se puede usar para la matris del keyboard y que ya esta desarrollado el codigo y los drivers tanto por usb como por I2C
+i was surfing the red when appear savage news
+i found an IC wich can use for the keyboard matrix and there yet was coding by usb and by I2C
 
 http://www.ti.com/lit/ug/tidu521/tidu521.pdf
 
-voy a investigar sobre como emplearlo en este proyecto
+i will research abaout how to use this in the project
 
- 
- 
+
+# Upgrade 11/02/2019
+## investigating a new Keyboard software - Uinput is a very easy to use solution
+
+i thinking about use uinput library of python, before dont considereded because CPU consumition but it would be minimal than the    
+normal use, unless we care a lot about the performance issue would be a good option.
+
+and matrix can be via atmega328 or some IC to do convert multiple inputs on less than, like pcf8574 or other I2C to parallel
+
+http://www.ti.com/lit/ds/symlink/pcf8574.pdf
+
+could also make atmega328 code to compatible for existing TCA8418 driver CODE or such any other similar
+
+
+https://github.com/tuomasjjrasanen/python-uinput
+
+https://pypi.org/project/python-uinput/
+
+http://tjjr.fi/sw/python-uinput/
+
+https://launchpad.net/python-uinput
+
+this option is used for retro pi and other similar projects
+
+
+# Upgrade 12/02/2019
+## there is a thread in reddit in the chip 
+
+there is a thread on reddit:
+https://www.reddit.com/r/ChipCommunity/comments/amldpz/trying_to_recreate_a_pocketchip_with_a_raspberry/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###########################################################################################################################
+###########################################################################################################################
+###########################################################################################################################
 
 
 # Español
@@ -288,3 +353,6 @@ this option is used for retro pi and other similar projects
 
 voy a investigar sobre como emplearlo en este proyecto
 
+
+there is a thread on reddit:
+https://www.reddit.com/r/ChipCommunity/comments/amldpz/trying_to_recreate_a_pocketchip_with_a_raspberry/
