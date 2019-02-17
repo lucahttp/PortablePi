@@ -195,7 +195,7 @@ this option is used for retro pi and other similar projects
 
 
 # Upgrade 12/02/2019
-## there is a thread in reddit in the chip 
+## there is a thread in reddit of the chip 
 
 there is a thread on reddit:
 https://www.reddit.com/r/ChipCommunity/comments/amldpz/trying_to_recreate_a_pocketchip_with_a_raspberry/
