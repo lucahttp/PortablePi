@@ -202,6 +202,15 @@ https://www.reddit.com/r/ChipCommunity/comments/amldpz/trying_to_recreate_a_pock
 
 
 
+# Upgrade 17/02/2019
+## meassurement pcf8574 in breadboard 
+
+my raspberry pi zero does not have a strip of pins welded in the GPIO, I will buy a strip of male pins to put on the gpio to be able to take measurements
+
+of course im going to have buy a pcf8574 in DIP format
+
+
+
 
 
 
