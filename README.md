@@ -1,7 +1,7 @@
 
 # Portable Pi
 
-Is an Father Board witch can connect to the raspberry pi (currently compatible to this gpio configuration, orange pi thinkercard, an anothers) this aport an Screen and keyboard (in one board) then i will add more things like audio jack, ethernet port, hub USB and everything you can imagine and put in your pockets.
+Is a Father Board witch can connect to the raspberry pi (currently compatible to this gpio configuration, orange pi thinkercard, an anothers) this aport an Screen and keyboard (on one board) then i will add more things like audio jack, ethernet port, hub USB and everything you can imagine and put in your pockets.
 
 ![alt text](https://github.com/lukaneco/PortablePi/blob/master/piportable%20v7/scheenshots/portablePi%20v7-brd.png)
 
@@ -210,13 +210,26 @@ my raspberry pi zero does not have a strip of pins welded in the GPIO, I will bu
 of course im going to have buy a pcf8574 in DIP format
 
 
+# Upgrade 01/03/2019
+## meassurement pcf8574 in breadboard 
+
+i bought a pcf8574 on module format, i got a LCD HD44780 LCD I2C controller for other purposes because i can get to use it for this project, the inconvinient is that one of the pins is used for the transistor of backlight (or i believe that).
+the pin that is already used is P3. I bought this module and not the only IC because in my country is more cheaply :) and in the future i think going to desoldering the ic and soldering it in the final board
+
+<img src="https://cdn.instructables.com/FI4/HFWA/IFPQS7M8/FI4HFWAIFPQS7M8.LARGE.jpg" alt="display" width="400px" height="whatever">
+
+<img src="http://2.bp.blogspot.com/-I3XLd8_r95M/VRiCLgRH99I/AAAAAAAAs0g/UG5SVwkqnps/s1600/TWI_IIC_1602_controller-mod1.jpg" alt="display" width="400px" height="whatever">
 
 
 
 
+http://ict-bits.blogspot.com/2015/03/modding-lcd1602-i2ciic-adapter-board-to.html
 
+https://www.instructables.com/id/Arduino-I2C-LCD-Driver-Library-and-PackMan/
 
+https://github.com/Nilhcem/lcd-pcf8574-androidthings
 
+<!-- <img src="" alt="display" width="400px" height="whatever"> --> 
 
 
 
