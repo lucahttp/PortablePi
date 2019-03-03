@@ -131,8 +131,33 @@ i found an options to buy in [Aliexpress](https://es.aliexpress.com/wholesale?ca
 
 
  
+# Refresh frequency - display for the portable pi - update 03/03/19
  
  
+ in the followind [video]( https://www.youtube.com/watch?v=SGMC0t33C50) show the problem abaout the latency of our display
+ https://www.youtube.com/watch?v=SGMC0t33C50
+ 
+ the framerate is very poor
+ 
+ 
+ ## display driver customizing
+ 
+ the other day i seen this [post]( https://github.com/juj/fbcp-ili9341), is a post abaout the driver configuration for increase the display quality but now i dont have the display for testing this code
+ 
+ https://github.com/juj/fbcp-ili9341
+ 
+
+
+## hyperpixel is a most powerfull solution but is very expensive and use more pins (all of pins xd)
+
+https://www.adafruit.com/product/3932
+
+## Another good display but it is also expensive
+in the next [video](https://www.youtube.com/watch?v=9fgWt42FThU), i have seen the review of a display that to be the best display for gaming
+
+https://www.youtube.com/watch?v=9fgWt42FThU
+
+https://www.banggood.com/Geekwrom-HD-3_5-Inch-TFT-Display-Shield-800x480-For-Raspberry-Pi-3B-2B-Acrylic-Matching-Case-Kit-p-1096477.html?utm_source=Youtube&utm_medium=cussku&utm_campaign=10517404_1096477&utm_content=1087&cur_warehouse=CN
 
 
 # Concept
@@ -202,7 +227,8 @@ https://www.reddit.com/r/ChipCommunity/comments/amldpz/trying_to_recreate_a_pock
 
 
 
-# Upgrade 17/02/2019
+
+# Update 17/02/2019
 ## meassurement pcf8574 in breadboard 
 
 my raspberry pi zero does not have a strip of pins welded in the GPIO, I will buy a strip of male pins to put on the gpio to be able to take measurements
@@ -210,7 +236,7 @@ my raspberry pi zero does not have a strip of pins welded in the GPIO, I will bu
 of course im going to have buy a pcf8574 in DIP format
 
 
-# Upgrade 01/03/2019
+# Update 01/03/2019
 ## meassurement pcf8574 in breadboard 
 
 i bought a pcf8574 on module format, i got a LCD HD44780 LCD I2C controller for other purposes because i can get to use it for this project, the inconvinient is that one of the pins is used for the transistor of backlight (or i believe that).
@@ -233,6 +259,12 @@ https://github.com/Nilhcem/lcd-pcf8574-androidthings
 
 
 
+
+# Update 03/03/19
+
+searching a good display
+
+[this is a better option for a cheap build](https://es.aliexpress.com/store/product/1pcs-3-2-inch-18P-SPI-TFT-LCD-Screen-without-Touch-panel-ILI9341-Drive-IC-240/133690_32819384322.html), have a good refresh frequency 
 
 
 
