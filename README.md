@@ -113,7 +113,7 @@ i found an options to buy in [Aliexpress](https://es.aliexpress.com/wholesale?ca
  
  ## 6. the way most cheaply and elaborate is PCF8574 with Python
  ### 12/03/19
-I found that, previusly i had trouble undertand about the UINPUT python library for use with PCF8574
+I found this, previusly i had trouble undertand about the UINPUT python library for use with PCF8574
  http://blog.thestateofme.com/2012/08/10/raspberry-pi-gpio-joystick/
  
  
