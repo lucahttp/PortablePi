@@ -3,6 +3,9 @@
 
 Is a Father Board witch can connect to the raspberry pi (currently compatible to this gpio configuration, orange pi thinkercard, an anothers) this aport an Screen and keyboard (on one board) then i will add more things like audio jack, ethernet port, hub USB and everything you can imagine and put in your pockets.
 
+![alt text](https://github.com/lukaneco/PortablePi/blob/master/re%20img/captura.png)
+render of prototype ver 8.8
+
 ![alt text](https://github.com/lukaneco/PortablePi/blob/master/piportable%20v7/scheenshots/portablePi%20v7-brd.png)
 
 ## History
