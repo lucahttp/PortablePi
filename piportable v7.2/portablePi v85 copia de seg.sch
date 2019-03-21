@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:portablePi v82-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -14,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MCU_Microchip_ATmega:ATmega328P-PU U1
-U 1 1 5C51E2EF
-P 2000 2300
-F 0 "U1" H 1359 2346 50  0000 R CNN
-F 1 "ATmega328P-PU" H 1359 2255 50  0000 R CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 2000 2300 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 2000 2300 50  0001 C CNN
-	1    2000 2300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Switch:SW_Push SW44
 U 1 1 5C51E438
@@ -114,7 +102,7 @@ F 3 "" H 6350 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Bitmap
-Pos 15800 3450
+Pos 15600 3600
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 07 80 00 00 04 38 08 06 00 00 00 E8 D3 C1 
@@ -18725,79 +18713,16 @@ F 3 "" H 8350 5900 50  0001 C CNN
 	1    8350 5700
 	1    0    0    -1  
 $EndComp
-Text GLabel 2950 3100 2    50   Input ~ 0
-USB_D-
-Text GLabel 2950 3000 2    50   Input ~ 0
-USB_D+
-Text GLabel 2950 2900 2    50   Input ~ 0
-Serial_TX
-Text GLabel 2950 2800 2    50   Input ~ 0
-Serial_RX
-Wire Wire Line
-	2950 2800 2600 2800
-Wire Wire Line
-	2600 2900 2950 2900
-Wire Wire Line
-	2950 3000 2600 3000
-Wire Wire Line
-	2600 3100 2950 3100
-Text GLabel 2950 2600 2    50   Input ~ 0
-Reset
-Text GLabel 2950 1800 2    50   Input ~ 0
-Osc2
-Text GLabel 2950 1700 2    50   Input ~ 0
-Osc1
-Wire Wire Line
-	2950 1700 2600 1700
-Wire Wire Line
-	2600 1800 2950 1800
-Wire Wire Line
-	2950 2600 2600 2600
-Text GLabel 2950 2000 2    50   Input ~ 0
-Row0
-Text GLabel 2950 2100 2    50   Input ~ 0
-Row1
-Text GLabel 2950 2200 2    50   Input ~ 0
-Row2
-Text GLabel 2950 2300 2    50   Input ~ 0
-Row3
-Text GLabel 2950 2400 2    50   Input ~ 0
-Row4
-Text GLabel 2950 2500 2    50   Input ~ 0
-Row5
-Text GLabel 2950 3200 2    50   Input ~ 0
-Row6
-Text GLabel 2950 3300 2    50   Input ~ 0
-Row7
-Text GLabel 2950 3400 2    50   Input ~ 0
-Row8
-Text GLabel 2950 3500 2    50   Input ~ 0
-Row9
-Text GLabel 2950 1500 2    50   Input ~ 0
-Col0
-Text GLabel 2950 1600 2    50   Input ~ 0
-Col1
-Text GLabel 2950 1400 2    50   Input ~ 0
-Col2
-Text GLabel 2950 1300 2    50   Input ~ 0
-Col3
-Text GLabel 2950 1200 2    50   Input ~ 0
-Col4
-Text GLabel 2950 1100 2    50   Input ~ 0
-Col5
-Text GLabel 5350 5250 0    50   Output ~ 0
+Text GLabel 5350 5050 0    50   Output ~ 0
 Col5
 Wire Wire Line
-	5350 5250 5850 5250
+	5350 5050 5850 5050
 Wire Wire Line
-	5850 5250 5850 4900
-Wire Wire Line
-	5850 4900 6000 4900
+	5850 5100 6000 5100
 Wire Wire Line
 	6000 5100 6600 5100
 Wire Wire Line
 	6600 5100 6600 4900
-Connection ~ 6000 4900
 Wire Wire Line
 	6600 5100 7200 5100
 Wire Wire Line
@@ -19105,12 +19030,12 @@ $EndComp
 $Comp
 L Connector:AudioJack3 J1
 U 1 1 5C562FE0
-P 7450 7950
-F 0 "J1" H 7430 8275 50  0000 C CNN
-F 1 "AudioJack3" H 7430 8184 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 7450 7950 50  0001 C CNN
-F 3 "~" H 7450 7950 50  0001 C CNN
-	1    7450 7950
+P 6250 7550
+F 0 "J1" H 6230 7875 50  0000 C CNN
+F 1 "AudioJack3" H 6230 7784 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 6250 7550 50  0001 C CNN
+F 3 "~" H 6250 7550 50  0001 C CNN
+	1    6250 7550
 	1    0    0    -1  
 $EndComp
 Text GLabel 1300 5200 0    50   Input ~ 0
@@ -19686,285 +19611,6 @@ Wire Wire Line
 Wire Wire Line
 	11400 1950 11400 2650
 Wire Wire Line
-	2600 1100 2950 1100
-Wire Wire Line
-	2950 1200 2600 1200
-Wire Wire Line
-	2600 1300 2950 1300
-Wire Wire Line
-	2950 1400 2600 1400
-Wire Wire Line
-	2600 1500 2950 1500
-Wire Wire Line
-	2950 1600 2600 1600
-Wire Wire Line
-	2600 2000 2950 2000
-Wire Wire Line
-	2950 2100 2600 2100
-Wire Wire Line
-	2600 2200 2950 2200
-Wire Wire Line
-	2950 2300 2600 2300
-Wire Wire Line
-	2600 2400 2950 2400
-Wire Wire Line
-	2950 2500 2600 2500
-Wire Wire Line
-	2600 3200 2950 3200
-Wire Wire Line
-	2950 3300 2600 3300
-Wire Wire Line
-	2600 3400 2950 3400
-Wire Wire Line
-	2950 3500 2600 3500
-Text Notes 3400 3100 0    50   ~ 0
-Opcional USB
-Wire Bus Line
-	3350 3000 3350 3150
-Wire Bus Line
-	3350 3150 3950 3150
-Wire Bus Line
-	3950 3150 3950 3000
-Wire Bus Line
-	3350 3000 3950 3000
-Text GLabel 3600 1850 0    50   Output ~ 0
-Osc2
-Text GLabel 3600 1750 0    50   Output ~ 0
-Osc1
-$Comp
-L Device:Crystal Y1
-U 1 1 5C6DC28D
-P 4000 1900
-F 0 "Y1" H 4000 2200 50  0000 C CNN
-F 1 "Crystal" H 4000 2100 50  0000 C CNN
-F 2 "Crystal:Crystal_HC18-U_Vertical" H 4000 1900 50  0001 C CNN
-F 3 "~" H 4000 1900 50  0001 C CNN
-	1    4000 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5C76D301
-P 4250 2100
-F 0 "C2" H 4150 2100 50  0000 R CNN
-F 1 "C_Small" H 4200 2200 50  0000 R CNN
-F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 4250 2100 50  0001 C CNN
-F 3 "~" H 4250 2100 50  0001 C CNN
-	1    4250 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 5C76D3E9
-P 3850 2150
-F 0 "C1" H 3950 2200 50  0000 L CNN
-F 1 "C_Small" H 3900 2100 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 3850 2150 50  0001 C CNN
-F 3 "~" H 3850 2150 50  0001 C CNN
-	1    3850 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 5C7FEFE4
-P 4250 2200
-F 0 "#PWR0109" H 4250 1950 50  0001 C CNN
-F 1 "GND" H 4255 2027 50  0000 C CNN
-F 2 "" H 4250 2200 50  0001 C CNN
-F 3 "" H 4250 2200 50  0001 C CNN
-	1    4250 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 5C838FD1
-P 3850 2250
-F 0 "#PWR0110" H 3850 2000 50  0001 C CNN
-F 1 "GND" H 3855 2077 50  0000 C CNN
-F 2 "" H 3850 2250 50  0001 C CNN
-F 3 "" H 3850 2250 50  0001 C CNN
-	1    3850 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 1750 4250 2000
-Wire Wire Line
-	3600 1750 4150 1750
-Wire Wire Line
-	4150 1900 4150 1750
-Connection ~ 4150 1750
-Wire Wire Line
-	4150 1750 4250 1750
-Wire Wire Line
-	3600 1850 3850 1850
-Wire Wire Line
-	3850 1850 3850 1900
-Wire Wire Line
-	3850 2050 3850 1900
-Connection ~ 3850 1900
-$Comp
-L power:GND #PWR0111
-U 1 1 5C8B2924
-P 2000 3800
-F 0 "#PWR0111" H 2000 3550 50  0001 C CNN
-F 1 "GND" H 2005 3627 50  0000 C CNN
-F 2 "" H 2000 3800 50  0001 C CNN
-F 3 "" H 2000 3800 50  0001 C CNN
-	1    2000 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0112
-U 1 1 5C8D1C75
-P 2000 750
-F 0 "#PWR0112" H 2000 600 50  0001 C CNN
-F 1 "+5V" H 1900 750 50  0000 C CNN
-F 2 "" H 2000 750 50  0001 C CNN
-F 3 "" H 2000 750 50  0001 C CNN
-	1    2000 750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 750  2000 800 
-$Comp
-L power:+5V #PWR0113
-U 1 1 5C8F0AE4
-P 2100 750
-F 0 "#PWR0113" H 2100 600 50  0001 C CNN
-F 1 "+5V" H 2200 750 50  0000 C CNN
-F 2 "" H 2100 750 50  0001 C CNN
-F 3 "" H 2100 750 50  0001 C CNN
-	1    2100 750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 750  2100 800 
-$Comp
-L power:+5V #PWR0114
-U 1 1 5C90FF07
-P 1200 1000
-F 0 "#PWR0114" H 1200 850 50  0001 C CNN
-F 1 "+5V" H 1300 1000 50  0000 C CNN
-F 2 "" H 1200 1000 50  0001 C CNN
-F 3 "" H 1200 1000 50  0001 C CNN
-	1    1200 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 1000 1200 1100
-Wire Wire Line
-	1200 1100 1400 1100
-$Comp
-L Device:D D10
-U 1 1 5C930BAA
-P 11850 1650
-F 0 "D10" V 11804 1729 50  0000 L CNN
-F 1 "D" V 11895 1729 50  0000 L CNN
-F 2 "Diode_THT:D_T-1_P10.16mm_Horizontal" H 11850 1650 50  0001 C CNN
-F 3 "~" H 11850 1650 50  0001 C CNN
-	1    11850 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D9
-U 1 1 5C9EE89B
-P 10950 1650
-F 0 "D9" V 10904 1729 50  0000 L CNN
-F 1 "D" V 10995 1729 50  0000 L CNN
-F 2 "Diode_THT:D_T-1_P10.16mm_Horizontal" H 10950 1650 50  0001 C CNN
-F 3 "~" H 10950 1650 50  0001 C CNN
-	1    10950 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D8
-U 1 1 5CA0E0F8
-P 10350 1650
-F 0 "D8" V 10304 1729 50  0000 L CNN
-F 1 "D" V 10395 1729 50  0000 L CNN
-F 2 "Diode_THT:D_T-1_P10.16mm_Horizontal" H 10350 1650 50  0001 C CNN
-F 3 "~" H 10350 1650 50  0001 C CNN
-	1    10350 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D7
-U 1 1 5CA2D93F
-P 9700 1650
-F 0 "D7" V 9654 1729 50  0000 L CNN
-F 1 "D" V 9745 1729 50  0000 L CNN
-F 2 "Diode_THT:D_T-1_P10.16mm_Horizontal" H 9700 1650 50  0001 C CNN
-F 3 "~" H 9700 1650 50  0001 C CNN
-	1    9700 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D5
-U 1 1 5CA6C986
-P 8500 1650
-F 0 "D5" V 8454 1729 50  0000 L CNN
-F 1 "D" V 8545 1729 50  0000 L CNN
-F 2 "Diode_THT:D_T-1_P10.16mm_Horizontal" H 8500 1650 50  0001 C CNN
-F 3 "~" H 8500 1650 50  0001 C CNN
-	1    8500 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D4
-U 1 1 5CA8C379
-P 7900 1650
-F 0 "D4" V 7854 1729 50  0000 L CNN
-F 1 "D" V 7945 1729 50  0000 L CNN
-F 2 "Diode_THT:D_T-1_P10.16mm_Horizontal" H 7900 1650 50  0001 C CNN
-F 3 "~" H 7900 1650 50  0001 C CNN
-	1    7900 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D3
-U 1 1 5CAABB87
-P 7150 1650
-F 0 "D3" V 7104 1729 50  0000 L CNN
-F 1 "D" V 7195 1729 50  0000 L CNN
-F 2 "Diode_THT:D_T-1_P10.16mm_Horizontal" H 7150 1650 50  0001 C CNN
-F 3 "~" H 7150 1650 50  0001 C CNN
-	1    7150 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 5CACB3A0
-P 6550 1650
-F 0 "D2" V 6504 1729 50  0000 L CNN
-F 1 "D" V 6595 1729 50  0000 L CNN
-F 2 "Diode_THT:D_T-1_P10.16mm_Horizontal" H 6550 1650 50  0001 C CNN
-F 3 "~" H 6550 1650 50  0001 C CNN
-	1    6550 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D1
-U 1 1 5CAEABAE
-P 5850 1650
-F 0 "D1" V 5804 1729 50  0000 L CNN
-F 1 "D" V 5895 1729 50  0000 L CNN
-F 2 "Diode_THT:D_T-1_P10.16mm_Horizontal" H 5850 1650 50  0001 C CNN
-F 3 "~" H 5850 1650 50  0001 C CNN
-	1    5850 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D6
-U 1 1 5CA4D184
-P 9100 1650
-F 0 "D6" V 9054 1729 50  0000 L CNN
-F 1 "D" V 9145 1729 50  0000 L CNN
-F 2 "Diode_THT:D_T-1_P10.16mm_Horizontal" H 9100 1650 50  0001 C CNN
-F 3 "~" H 9100 1650 50  0001 C CNN
-	1    9100 1650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	11850 1350 11850 1500
 Wire Wire Line
 	11850 1800 11850 1950
@@ -19972,8 +19618,6 @@ Connection ~ 11850 1950
 Wire Wire Line
 	10950 1800 10950 2250
 Connection ~ 10950 2250
-Wire Wire Line
-	10950 1500 10950 1350
 Wire Wire Line
 	10350 1350 10350 1500
 Wire Wire Line
@@ -20012,25 +19656,228 @@ Connection ~ 5850 1950
 Wire Wire Line
 	5850 1350 5850 1500
 $Comp
-L Interface_Expansion:PCF8574 U?
+L Interface_Expansion:PCF8574 U2
 U 1 1 5C6AD020
 P 9300 7300
-F 0 "U?" H 9300 8178 50  0000 C CNN
-F 1 "PCF8574" H 9300 8087 50  0000 C CNN
-F 2 "" H 9300 7300 50  0001 C CNN
+F 0 "U2" H 9450 8000 50  0000 C CNN
+F 1 "PCF8574" H 9550 7900 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W10.16mm_LongPads" H 9300 7300 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 9300 7300 50  0001 C CNN
 	1    9300 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_Expansion:PCF8574 U?
+L Interface_Expansion:PCF8574 U3
 U 1 1 5C6AD2D8
-P 9300 8950
-F 0 "U?" H 9300 9828 50  0000 C CNN
-F 1 "PCF8574" H 9300 9737 50  0000 C CNN
-F 2 "" H 9300 8950 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 9300 8950 50  0001 C CNN
-	1    9300 8950
+P 9300 9350
+F 0 "U3" H 9450 10100 50  0000 C CNN
+F 1 "PCF8574" H 9550 10000 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W10.16mm_LongPads" H 9300 9350 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 9300 9350 50  0001 C CNN
+	1    9300 9350
 	1    0    0    -1  
 $EndComp
+Text GLabel 9800 7300 2    50   Input ~ 0
+Col0
+Text GLabel 9800 7400 2    50   Input ~ 0
+Col1
+Text GLabel 9800 7200 2    50   Input ~ 0
+Col2
+Text GLabel 9800 7100 2    50   Input ~ 0
+Col3
+Text GLabel 9800 7000 2    50   Input ~ 0
+Col4
+Text GLabel 9800 6900 2    50   Input ~ 0
+Col5
+Text GLabel 9800 9350 2    50   Input ~ 0
+Row6
+Text GLabel 9800 9450 2    50   Input ~ 0
+Row7
+Text GLabel 9800 9550 2    50   Input ~ 0
+Row8
+Text GLabel 9800 9650 2    50   Input ~ 0
+Row9
+Text GLabel 9800 7500 2    50   Input ~ 0
+Row0
+Text GLabel 9800 7600 2    50   Input ~ 0
+Row1
+Text GLabel 9800 8950 2    50   Input ~ 0
+Row2
+Text GLabel 9800 9050 2    50   Input ~ 0
+Row3
+Text GLabel 9800 9150 2    50   Input ~ 0
+Row4
+Text GLabel 9800 9250 2    50   Input ~ 0
+Row5
+Text GLabel 8800 7000 0    50   Input ~ 0
+SDA
+Text GLabel 8800 6900 0    50   Input ~ 0
+SDL
+Text GLabel 8800 9050 0    50   Input ~ 0
+SDA
+Text GLabel 8800 8950 0    50   Input ~ 0
+SDL
+$Comp
+L power:GND #PWR0115
+U 1 1 5C7B5C6C
+P 9300 10050
+F 0 "#PWR0115" H 9300 9800 50  0001 C CNN
+F 1 "GND" H 9305 9877 50  0000 C CNN
+F 2 "" H 9300 10050 50  0001 C CNN
+F 3 "" H 9300 10050 50  0001 C CNN
+	1    9300 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5C7D6474
+P 9300 8000
+F 0 "#PWR0116" H 9300 7750 50  0001 C CNN
+F 1 "GND" H 9305 7827 50  0000 C CNN
+F 2 "" H 9300 8000 50  0001 C CNN
+F 3 "" H 9300 8000 50  0001 C CNN
+	1    9300 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 5C7F7564
+P 9300 8650
+F 0 "#PWR0117" H 9300 8500 50  0001 C CNN
+F 1 "+5V" H 9315 8823 50  0000 C CNN
+F 2 "" H 9300 8650 50  0001 C CNN
+F 3 "" H 9300 8650 50  0001 C CNN
+	1    9300 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0118
+U 1 1 5C818A94
+P 9300 6600
+F 0 "#PWR0118" H 9300 6450 50  0001 C CNN
+F 1 "+5V" H 9315 6773 50  0000 C CNN
+F 2 "" H 9300 6600 50  0001 C CNN
+F 3 "" H 9300 6600 50  0001 C CNN
+	1    9300 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 7850 0    50   Input ~ 0
+SDA
+Text GLabel 1350 8050 0    50   Input ~ 0
+SDL
+$Comp
+L Diode:1N4148 D10
+U 1 1 5C6B75F2
+P 11850 1650
+F 0 "D10" V 11804 1729 50  0000 L CNN
+F 1 "1N4148" V 11895 1729 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 11850 1475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 11850 1650 50  0001 C CNN
+	1    11850 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 5C7391F5
+P 10950 1650
+F 0 "D9" V 10904 1729 50  0000 L CNN
+F 1 "1N4148" V 10995 1729 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 10950 1475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10950 1650 50  0001 C CNN
+	1    10950 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 5C759823
+P 10350 1650
+F 0 "D8" V 10304 1729 50  0000 L CNN
+F 1 "1N4148" V 10395 1729 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 10350 1475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 10350 1650 50  0001 C CNN
+	1    10350 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 5C759829
+P 9700 1650
+F 0 "D7" V 9654 1729 50  0000 L CNN
+F 1 "1N4148" V 9745 1729 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 9700 1475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9700 1650 50  0001 C CNN
+	1    9700 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10950 1350 10950 1500
+$Comp
+L Diode:1N4148 D6
+U 1 1 5C8BE67D
+P 9100 1650
+F 0 "D6" V 9054 1729 50  0000 L CNN
+F 1 "1N4148" V 9145 1729 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 9100 1475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9100 1650 50  0001 C CNN
+	1    9100 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 5C8DED71
+P 8500 1650
+F 0 "D5" V 8454 1729 50  0000 L CNN
+F 1 "1N4148" V 8545 1729 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 8500 1475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8500 1650 50  0001 C CNN
+	1    8500 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 5C8DED77
+P 7900 1650
+F 0 "D4" V 7854 1729 50  0000 L CNN
+F 1 "1N4148" V 7945 1729 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 7900 1475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7900 1650 50  0001 C CNN
+	1    7900 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 5C8DED7D
+P 7150 1650
+F 0 "D3" V 7104 1729 50  0000 L CNN
+F 1 "1N4148" V 7195 1729 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 7150 1475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7150 1650 50  0001 C CNN
+	1    7150 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 5C9402B6
+P 6550 1650
+F 0 "D2" V 6504 1729 50  0000 L CNN
+F 1 "1N4148" V 6595 1729 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 6550 1475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6550 1650 50  0001 C CNN
+	1    6550 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 5C9402BC
+P 5850 1650
+F 0 "D1" V 5804 1729 50  0000 L CNN
+F 1 "1N4148" V 5895 1729 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 5850 1475 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5850 1650 50  0001 C CNN
+	1    5850 1650
+	0    1    1    0   
+$EndComp
+Connection ~ 6000 5100
+Wire Wire Line
+	5850 5100 5850 5050
 $EndSCHEMATC
