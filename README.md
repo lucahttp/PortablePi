@@ -282,14 +282,18 @@ searching a good display
 
 
 
+# Update 21/03/19 the last day of summer
+
+too late, someone already make an opensource project more little and powerfull design
+
+<img src="https://cdn.tindiemedia.com/images/resize/c-cxf9uWZODzxciLUTmKwjmra0c=/p/full-fit-in/1200x800/i/29027/products/2019-02-12T14%3A57%3A02.398Z-20190212_152019.jpg" alt="display" width="400px" height="whatever">
+
+[video](https://www.youtube.com/watch?v=rN4tRiI-K5M)
+
+[link](https://www.tindie.com/products/electronictrik/snaponair-raspberry-pi-zero-pcb/)
 
 
-
-
-
-
-
-
+I will continue to develop it because these components are not available in my country :( macri intensifies
 
 
 
